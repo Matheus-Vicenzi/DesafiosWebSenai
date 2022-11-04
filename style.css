@@ -13,11 +13,13 @@
 
 body{
     background-color: #fff;
+    height: 94%;
+    max-height: 94%;
 }
 
 section{
-    padding-bottom: 50px;
     overflow: auto;
+ 
 }
 
 h1{
@@ -31,11 +33,10 @@ header{
     background-color: var(--verde);
     top: 0;
     margin: 0;
+    height: 3%;
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
     width: 100%;
     border: none;
     background: var(--verde);
@@ -43,7 +44,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5%;
+    height: 3%;
 }
 
 .cabecalho{
