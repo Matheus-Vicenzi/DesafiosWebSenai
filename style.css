@@ -1,0 +1,116 @@
+:root{
+    --verde: #21cf64;
+    --verdeClaro: #84dda6;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #fff;
+}
+
+section{
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+h1{
+    font-size: 24px;
+    color:#fff;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: var(--verde);
+    top: 0;
+    margin: 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    background: var(--verde);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+}
+
+.cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+}
+
+.form-par-impar{
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-consult {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-form{
+    margin-right: 5px;
+}
+
+.btn{
+    background-color: var(--verde);
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: var(--verdeClaro);
+}
+
+.form-control{
+    width: 30%;
+}
+
+.numerosParesBox {
+    margin-top: 3%;
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.estacaoBox {
+    margin-top: 3%;
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabuadaBox{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
