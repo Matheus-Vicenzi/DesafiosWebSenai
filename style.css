@@ -8,18 +8,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body{
     background-color: #fff;
-    height: 94%;
-    max-height: 94%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 section{
-    overflow: auto;
- 
+    margin: auto 0
 }
 
 h1{
@@ -44,8 +43,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
     height: 3%;
 }
+
 
 .cabecalho{
     width: 100%;
